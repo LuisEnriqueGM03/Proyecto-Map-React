@@ -1,0 +1,208 @@
+Body{
+    background: white;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.fold-big{
+    background: white;
+    border :2px solid white;
+}
+.fold{
+    background: white;
+    border :2px solid #191919;
+}
+.fold:hover{
+   box-shadow: #191919 0px 0px 50px;
+    transition: 0.5s;
+}
+h2,h3,h4,h5,i,p{
+    color: black;
+}
+.title{
+    font-size: 40px;
+    color: black;
+}
+.title-2{
+    font-size: 30px;
+    color: black;
+}
+
+.title-3{
+    font-size: 20px;
+    color: black;
+}
+.title-4{
+    font-size: 25px;
+    color: black;
+}
+.nombre{
+    font-size: 22px;
+    color: black;
+}
+.perfil-card{
+    height:100%;
+    width: 250px;
+}
+
+.perfil{
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+
+}
+.peli-card{
+    height: 100%;
+    width: 250px;
+}
+.pelicula{
+    height: 320px;
+    width: 250px;
+    padding: 10px;
+}
+.pelicula-perfil{
+    height: 280px;
+    width: 220px;
+    padding: 10px;
+}
+
+.busqueda {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    max-width: 650px;
+}
+
+.busqueda::placeholder {
+    color: black;
+}
+
+.busqueda:focus {
+    outline: none;
+    border-color: white;
+    color:white;
+    background-color: #232323;
+    transition: border-color 0.5s ease, background-color 0.5s ease;
+}
+.busqueda:focus::placeholder {
+    outline: none;
+    color:white;
+    background-color: #232323;
+    transition: border-color 0.5s ease, background-color 0.5s ease;
+}
+.cartelera{
+    margin-left: 10px;
+}
+.reparto{
+    width: 190px;
+    height: 200px;
+}
+.reparto-card{
+    height:100%;
+}
+.director{
+    width: 350px;
+    height: 350px;
+}
+.dark-color{
+    background: #0b122b;
+    color: white;
+}
+
+.custom-navbar {
+    background-color: black;
+    box-shadow: 0 5px 5px 4px black;
+}
+
+.custom-navbar a {
+    color: #ffffff;
+
+}
+
+.custom-navbar a:hover {
+    color: black;
+}
+.custom-navbar .dropdown-menu {
+    background-color: #191919;
+    border-color: #191919;
+}
+
+.custom-navbar .dropdown-item {
+    color: #ffffff;
+}
+.custom-navbar .dropdown-item:hover {
+    background-color: #191919;
+    color: #ffffff;
+}
+
+
+.fold-tipo{
+    background: white;
+    border :4px solid black;
+}
+.fold-tipo-card{
+    background: white;
+    border :2px solid black;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5%;
+}
+.btn-tipo{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+.btn-tipo:hover {
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.img-tipo{
+    width: 40px;
+    height: 40px;
+    objectFit: 'cover';
+
+}
+
+.fold-big-login{
+    background: white;
+    border :2px solid black;
+    box-shadow: 0px 0px 20px black;
+}
+.login:focus {
+    outline: none;
+    border-color: white;
+    color:white;
+    background-color: #232323;
+    transition: border-color 0.5s ease, background-color 0.5s ease;
+}
+.login:focus::placeholder {
+    outline: none;
+    color:white;
+    background-color: #232323;
+    transition: border-color 0.5s ease, background-color 0.5s ease;
+}
+
+
+.fold-usuario-card{
+    background: white;
+    border :2px solid black;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5%;
+}
+.btn-user{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+.fold-big-map{
+    background: white;
+    border :2px solid black;
+    box-shadow: 0px 0px 3px black;
+}
